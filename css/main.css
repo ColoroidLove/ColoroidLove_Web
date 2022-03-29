@@ -1,0 +1,23 @@
+body, html { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background: #3843d3;
+}
+
+.notice_txt_container{
+    margin-top : 30px;
+    margin-right : 500px;
+}
+
+.main_notice_txt{
+    font-family: 'NanumSquare', sans-serif !important;
+    /* font-family: 'KoPub Dotum'; */
+    color : #f4f6f8;
+    font-weight: 100;
+    font-size: 30px;
+}
