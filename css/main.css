@@ -12,6 +12,7 @@ body, html {
 .notice_txt_container{
     margin-top : 30px;
     margin-right : 500px;
+    padding-top: 30px;
 }
 
 .main_notice_txt{
