@@ -1,0 +1,29 @@
+<style>
+    .section {
+        text-align:center;
+        font-size: 3em;
+      }
+</style>
+<script>
+    new fullpage('#fullpage', {
+        sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+      });
+</script>
+<link rel="stylesheet" type="text/css" href="fullpage.css" />
+
+<!-- 아래는 선택사항입니다. css3:false 옵션을 쓰시면서 "linear", "swing" 또는 "easeInOutCubic" 대신 다른 전환(easing) 효과를 원하시는 경우에만 필요합니다. -->
+<script src="vendors/easings.min.js"></script>
+
+<!-- 아래 선은 `scrollOverflow:true` 옵션을 쓰시는 경우에만 넣으셔야 합니다. -->
+<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
+<script type="text/javascript" src="fullpage.js"></script>
+<div id="fullpage">
+    <div class="section">Section 1</div>
+    <div class="section">
+        <div class="slide" data-anchor="slide1">Slide 2.1</div>
+        <div class="slide" data-anchor="slide2">Slide 2.2</div>
+    </div>
+    <div class="section">Section 3</div>
+    <div class="section">Section 4</div>
+</div>

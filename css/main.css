@@ -10,9 +10,9 @@ body, html {
 }
 
 .notice_txt_container{
-    margin-top : 30px;
     margin-right : 500px;
-    padding-top: 30px;
+    padding-top: 160px;
+    padding-left : 200px;
 }
 
 .main_notice_txt{
@@ -20,5 +20,14 @@ body, html {
     /* font-family: 'KoPub Dotum'; */
     color : #f4f6f8;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 40px;
+    line-height: 53px;
+}
+
+.sub_notice_txt{
+    font-family: 'NanumSquare', sans-serif !important;
+    color : #f4f6f8;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 24px;
 }
