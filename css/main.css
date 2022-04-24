@@ -11,7 +11,7 @@ body, html {
 
 .notice_txt_container{
     margin-right : 500px;
-    padding-top: 160px;
+    padding-top: 220px;
     padding-left : 200px;
 }
 
@@ -30,4 +30,17 @@ body, html {
     font-weight: 200;
     font-size: 17px;
     line-height: 24px;
+}
+.notice_btn{
+    width : 150px;
+    height : 50px;
+    font-family: 'NanumSquare', sans-serif !important;
+    border-radius: 15px;
+    border : none;
+    font-size : 16px;
+    cursor: pointer;
+}
+.notice_btn:hover{
+    background-color: rgb(189, 189, 189);
+    color: rgb(0, 0, 0);
 }
