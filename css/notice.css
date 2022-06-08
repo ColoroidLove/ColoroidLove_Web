@@ -48,33 +48,30 @@ body{
 
 .notice_box{
     text-align: center;
-    margin-top: 120px;
+    margin-top: 250px;
 }
 
 .notice_txt{
     font-family: 'NanumSquare', sans-serif !important;
-    font-size: 20px;
+    font-size: 35px;
     background-color : #ffd400;
     color:#000;
 }
 
 button{
     border : 0px;
-    width : 150px;
-    height : 60px;
-    border-radius: 10px;
+    width : 300px;
+    height : 100px;
+    border-radius: 30px;
     margin-right: 50px;
     cursor: pointer;
     background-color: #eee;
-    font-size: 13.5px;
+    font-size: 20px;
 }
 
-button:hover{
-    background-color: #a3a9ff;
-}
 
 .button_line1{
-    margin-top : 80px;
+    margin-top : 120px;
     text-align: center;
 }
 
@@ -83,9 +80,63 @@ button:hover{
 }
 
 .button_test_02{
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .button_test_03{
-    margin-top: 60px;
+    margin-top: 100px;
+}
+
+#spring_light:hover{
+    background-color: #c087cb;
+    color:#fff;
+}
+
+#spring_bright:hover{
+    background-color: #FFE10B;
+}
+
+#summer_light:hover{
+    background-color: #b0b7e3;
+}
+
+#summer_mute:hover{
+    background-color: #d54b6c;
+    color:#fff;
+}
+
+#summer_bright:hover{
+    background-color:  #33dbc1;
+}
+
+#summer_noto_mute:hover{
+    background-color: #e4a6b1;
+}
+
+#fall_mute:hover{
+    background-color: #936b52;
+    color: #fff;
+}
+
+#fall_strong:hover{
+    background-color: #fe3018;
+    color: #fff;
+}
+
+#fall_dip:hover{
+    background-color: #507d02;
+    color: #fff;
+}
+
+#fall_true:hover{
+    background-color: #c7d5ef;
+}
+
+#winter_bright:hover{
+    background-color: #ed7cbe;
+}
+
+#winter_dip:hover{
+    background-color: #105B40;
+    color:#fff;
 }
