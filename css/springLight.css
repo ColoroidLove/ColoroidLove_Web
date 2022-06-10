@@ -61,10 +61,97 @@ table {
     color: #000cad;
 }
 
+/* 1920*1080 반응형 */
+@media ( min-width: 1080px ) {
 
+	.background_box{
+		text-align: center;
+	}
+	
+	.result_main_txt{
+		font-size: 30px;
+	}
+	
+	.resultimg{
+		margin-top: 40px;
+	}
+
+	.result_tag {
+		margin-top: 15px;
+	}
+	
+	.result_tag > span{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 15px;
+		padding-right: 5px;
+		font-weight: 500;
+		color: #000cad;
+	}
+
+	.result_main_box{
+		margin-top: 130px;
+	}
+
+	.result_sub_box{
+		margin-top: 80px;
+	}
+
+	.result_sub_txt{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 17px;
+		word-spacing: 2px;
+		line-height: 30px;
+	}
+
+	.result_sub_notice_txt{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 20px;
+	}
+
+	.result_sub_img_box{
+		margin-top: 120px;
+	}
+
+	.result_sub_img_box > span{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 20px;
+		background-color: #ffeea0;
+	}
+
+
+	.result_sub_celebrity_box{
+		margin-top: 120px;
+	}
+
+	.result_sub_celebrity_notice{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 20px;
+	}
+
+	.celebrity_box{
+		margin-top: 20px;
+		margin-bottom: 100px;
+	}
+
+	.celebrity_box > span{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 17px;
+	}
+
+	.back_arrow_box{
+		float: left;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+	
+	.back_arrow_box > a > img{
+		width : 50px;
+		height : 50px;
+	}
+}
 
 /* 2560*1440 반응형 */
-@media ( max-width: 2800px ) {
+@media ( min-width: 2000px ) {
 
 	.background_box{
 		text-align: center;
@@ -81,11 +168,19 @@ table {
 	}
 	
 	.result_tag > span{
+		font-family: 'NanumSquare', sans-serif !important;
 		font-size: 20px;
 		padding-right: 5px;
 		font-weight: 500;
 		color: #000cad;
 	}
 	
+	.result_tag {
+		margin-top: 30px;
+	}
+
+	.result_main_box{
+		margin-top: 160px;
+	}
 	
 }
