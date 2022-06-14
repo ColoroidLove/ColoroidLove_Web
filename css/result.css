@@ -183,5 +183,62 @@ table {
 	.result_main_box{
 		margin-top: 160px;
 	}
+
+	.result_sub_box{
+		margin-top: 80px;
+	}
+
+	.result_sub_txt{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 20px;
+		word-spacing: 2px;
+		line-height: 30px;
+	}
+
+	.result_sub_notice_txt{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 24px;
+	}
+
+	.result_sub_img_box{
+		margin-top: 220px;
+	}
+
+	.result_sub_img_box > span{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 20px;
+		background-color: #ffeea0;
+	}
+
+
+	.result_sub_celebrity_box{
+		margin-top: 220px;
+	}
+
+	.result_sub_celebrity_notice{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 24px;
+	}
+
+	.celebrity_box{
+		margin-top: 20px;
+		margin-bottom: 100px;
+	}
+
+	.celebrity_box > span{
+		font-family: 'NanumSquare', sans-serif !important;
+		font-size: 20px;
+	}
+
+	.back_arrow_box{
+		float: left;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+	
+	.back_arrow_box > a > img{
+		width : 50px;
+		height : 50px;
+	}
 	
 }
