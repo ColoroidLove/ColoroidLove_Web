@@ -24,6 +24,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -44,97 +45,210 @@ table {
 }
 
 
-.notice_box{
-    text-align: center;
-    margin-top: 250px;
+/* 1920*1080 반응형 */
+@media ( min-width: 1080px ) {
+
+    body{
+        background-color: #105B40 ;
+    }
+    
+    .notice_box{
+        text-align: center;
+        margin-top: 250px;
+    }
+    
+    .notice_txt{
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 35px;
+        background-color : #ffd400;
+        color:#000;
+    }
+    
+    button{
+        border : 0px;
+        width : 300px;
+        height : 100px;
+        border-radius: 30px;
+        margin-right: 50px;
+        cursor: pointer;
+        background-color: #eee;
+        font-size: 20px;
+    }
+    
+    
+    .button_line1{
+        margin-top : 120px;
+        text-align: center;
+    }
+    
+    .button_line1 > button{
+        font-family: 'NanumSquare', sans-serif !important;
+    }
+    
+    .button_test_02{
+        margin-top: 100px;
+    }
+    
+    .button_test_03{
+        margin-top: 100px;
+    }
+    
+    #spring_light:hover{
+        background-color: #c087cb;
+        color:#fff;
+    }
+    
+    #spring_bright:hover{
+        background-color: #FFE10B;
+    }
+    
+    #summer_light:hover{
+        background-color: #b0b7e3;
+    }
+    
+    #summer_mute:hover{
+        background-color: #d54b6c;
+        color:#fff;
+    }
+    
+    #summer_bright:hover{
+        background-color:  #33dbc1;
+    }
+    
+    #summer_noto_mute:hover{
+        background-color: #e4a6b1;
+    }
+    
+    #fall_mute:hover{
+        background-color: #936b52;
+        color: #fff;
+    }
+    
+    #fall_strong:hover{
+        background-color: #fe3018;
+        color: #fff;
+    }
+    
+    #fall_dip:hover{
+        background-color: #507d02;
+        color: #fff;
+    }
+    
+    #fall_true:hover{
+        background-color: #c7d5ef;
+    }
+    
+    #winter_bright:hover{
+        background-color: #ed7cbe;
+    }
+    
+    #winter_dip:hover{
+        background-color: #105B40;
+        color:#fff;
+    }
 }
 
-.notice_txt{
-    font-family: 'NanumSquare', sans-serif !important;
-    font-size: 35px;
-    background-color : #ffd400;
-    color:#000;
-}
 
-button{
-    border : 0px;
-    width : 300px;
-    height : 100px;
-    border-radius: 30px;
-    margin-right: 50px;
-    cursor: pointer;
-    background-color: #eee;
-    font-size: 20px;
-}
+/* 2560*1440 반응형 */
+@media ( min-width: 2000px ){
 
-
-.button_line1{
-    margin-top : 120px;
-    text-align: center;
-}
-
-.button_line1 > button{
-    font-family: 'NanumSquare', sans-serif !important;
-}
-
-.button_test_02{
-    margin-top: 100px;
-}
-
-.button_test_03{
-    margin-top: 100px;
-}
-
-#spring_light:hover{
-    background-color: #c087cb;
-    color:#fff;
-}
-
-#spring_bright:hover{
-    background-color: #FFE10B;
-}
-
-#summer_light:hover{
-    background-color: #b0b7e3;
-}
-
-#summer_mute:hover{
-    background-color: #d54b6c;
-    color:#fff;
-}
-
-#summer_bright:hover{
-    background-color:  #33dbc1;
-}
-
-#summer_noto_mute:hover{
-    background-color: #e4a6b1;
-}
-
-#fall_mute:hover{
-    background-color: #936b52;
-    color: #fff;
-}
-
-#fall_strong:hover{
-    background-color: #fe3018;
-    color: #fff;
-}
-
-#fall_dip:hover{
-    background-color: #507d02;
-    color: #fff;
-}
-
-#fall_true:hover{
-    background-color: #c7d5ef;
-}
-
-#winter_bright:hover{
-    background-color: #ed7cbe;
-}
-
-#winter_dip:hover{
-    background-color: #105B40;
-    color:#fff;
+    body{
+        background-color: #fff ;
+    }
+    
+    .notice_box{
+        text-align: center;
+        margin-top: 250px;
+    }
+    
+    .notice_txt{
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 35px;
+        background-color : #ffd400;
+        color:#000;
+    }
+    
+    button{
+        border : 0px;
+        width : 300px;
+        height : 100px;
+        border-radius: 30px;
+        margin-right: 50px;
+        cursor: pointer;
+        background-color: #eee;
+        font-size: 20px;
+    }
+    
+    
+    .button_line1{
+        margin-top : 120px;
+        text-align: center;
+    }
+    
+    .button_line1 > button{
+        font-family: 'NanumSquare', sans-serif !important;
+    }
+    
+    .button_test_02{
+        margin-top: 100px;
+    }
+    
+    .button_test_03{
+        margin-top: 100px;
+    }
+    
+    #spring_light:hover{
+        background-color: #c087cb;
+        color:#fff;
+    }
+    
+    #spring_bright:hover{
+        background-color: #FFE10B;
+    }
+    
+    #summer_light:hover{
+        background-color: #b0b7e3;
+    }
+    
+    #summer_mute:hover{
+        background-color: #d54b6c;
+        color:#fff;
+    }
+    
+    #summer_bright:hover{
+        background-color:  #33dbc1;
+    }
+    
+    #summer_noto_mute:hover{
+        background-color: #e4a6b1;
+    }
+    
+    #fall_mute:hover{
+        background-color: #936b52;
+        color: #fff;
+    }
+    
+    #fall_strong:hover{
+        background-color: #fe3018;
+        color: #fff;
+    }
+    
+    #fall_dip:hover{
+        background-color: #507d02;
+        color: #fff;
+    }
+    
+    #fall_true:hover{
+        background-color: #c7d5ef;
+    }
+    
+    #winter_bright:hover{
+        background-color: #ed7cbe;
+    }
+    
+    #winter_dip:hover{
+        background-color: #105B40;
+        color:#fff;
+    }
+    
 }
