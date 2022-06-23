@@ -48,11 +48,11 @@ body{
     background-color: #3843d3;
 }
 
-
 .notice_txt_container{
     margin-right : 500px;
-    padding-top: 220px;
+    padding-top: 400px;
     padding-left : 200px;
+    float: left;
 }
 
 .main_notice_txt{
@@ -60,30 +60,40 @@ body{
     /* font-family: 'KoPub Dotum'; */
     color : #f4f6f8;
     font-weight: 100;
-    font-size: 40px;
-    line-height: 53px;
+    font-size: 60px;
+    line-height: 80px;
 }
 
 .sub_notice_txt{
     font-family: 'NanumSquare', sans-serif !important;
     color : #f4f6f8;
     font-weight: 200;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 28px;
+    line-height: 32px;
 }
 .notice_btn{
-    width : 200px;
-    height : 60px;
+    width : 250px;
+    height : 80px;
     font-family: 'NanumSquare', sans-serif !important;
-    border-radius: 30px;
+    border-radius: 50px;
     border : none;
-    font-size : 16px;
+    font-size : 18px;
     cursor: pointer;
 }
 .notice_btn:hover{
     background-color: rgb(189, 189, 189);
     color: rgb(0, 0, 0);
 }
+
+.img_container_box{
+    margin-top: -200px;
+    margin-left: 900px;
+}
+
+.img_container_box > img{
+    width : 250px;
+}
+
 
 /* 2560*1440 반응형 */
 @media ( min-width: 2000px ){
